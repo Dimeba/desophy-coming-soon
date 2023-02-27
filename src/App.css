@@ -5,6 +5,19 @@
 	gap: 10vh;
 	min-height: 100vh;
 	padding: 10vh;
+	animation: animateIn 1s ease-out;
+}
+
+@keyframes animateIn {
+	from {
+		opacity: 0;
+		transform: translateY(10%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .bottom {
@@ -21,4 +34,11 @@
 .social-media {
 	display: flex;
 	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+	.App {
+		padding: 5vh;
+	}
 }

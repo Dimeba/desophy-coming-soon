@@ -21,3 +21,9 @@ a {
 a:hover {
 	color: #f05d2a;
 }
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.4rem;
+	}
+}
