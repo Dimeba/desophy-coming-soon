@@ -1,0 +1,24 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10vh;
+	min-height: 100vh;
+	padding: 10vh;
+}
+
+.bottom {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.logo {
+	height: 2rem;
+	width: fit-content;
+}
+
+.social-media {
+	display: flex;
+	gap: 1rem;
+}
