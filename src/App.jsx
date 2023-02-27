@@ -4,14 +4,12 @@ function App() {
 	return (
 		<div className='App'>
 			<div className='top'>
-				<h1>
-					DeSophy is a full-service consultancy for commercial real estate
-					brokers. <br />
-					<br />
+				<h1>Inspired by Culture & Storytelling.</h1>
+				<h2>
 					Our research and marketing teams have cut their teeth in the CRE
 					industry, and by combining best practices, created a foolproof roadmap
 					for our clients to work more efficiently and to close more deals.
-				</h1>
+				</h2>
 			</div>
 			<div className='bottom'>
 				<p>NEW WEBSITE COMING SOON</p>
